@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+header {
+	display: flex;
+	margin-top: 40px;
+	padding: 0px 30px;
+}
+
+a {
+	color: grey;
+}
+
+.page-title-area {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.page-title {
+	text-decoration: underline;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+main {
+	display: flex;
+	margin-top: 40px;
+	padding: 0px 9%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 3px;
+	max-width: 300px;
+	width: 100%;
+	margin: 30px;
+}
+
+.box-subtitle1 {
+	color: blue;
+}
+
+.box-subtitle2 {
+	color: green;
+}
+
+.box-main-title {
+	margin-top: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.date {
+	color: grey;
+	font-size: 11px;
+	margin-top: 5px;
+}
+
+.box-content {
+	margin-top: 7px;
+	font-size: 13px;
+}
+
+.box-link-area {
+	margin-top: 30px;
+}
+
+.footer-link,
+.box-link {
+	color: rgb(0 166 255);
+}
+
+footer {
+	margin-top: 20px;
+	background-color: #f5f5f5;
+	padding: 50px 10px;
+	display: grid;
+	justify-content: center;
+	box-shadow: 5px 5px 10px rgba(200, 200, 200, 0.2);
+}
+
+.footer-help {
+	color: grey;
+}
+
+.footer-link-area {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
